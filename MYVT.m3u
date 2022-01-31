@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url=""
 #EXTINF:-1 tvg-id="2MMonde.ma" tvg-country="MA" tvg-language="Arabic;French" tvg-logo="https://i.imgur.com/CwwRn4b.png" group-title="General",2M Monde (360p) [Geo-blocked]
-http://cdnlive.shooowit.net/25televisiolive/25tv.smil/.m3u8?fluxustv.m3u8
+ https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_video_ts/2m_monde.m3u8
 #EXTINF:-1 tvg-id="AbuDhabiSports1.ae" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/lKl2wZH.png" group-title="Sports",Abu Dhabi Sports 1 (1080p)
 https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AbuDhabiSports4.ae" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://statres.cdn.mgmlcdn.com/analytics/uploads/164/5e3ad6cc72.png" group-title="Sports",Abu Dhabi Sports 4 (1080p) [Geo-blocked]
@@ -319,35 +319,43 @@ https://admdn1.cdn.mangomolo.com/yastv/smil:yastv.stream.smil/playlist.m3u8
 https://weyyak-live.akamaized.net/weyyak_zee_aflam/index.m3u8
 #EXTINF:-1 tvg-id="ZeeAlwan.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://content.weyyak.com/25a860af-4bbc-4289-8e1f-b3bed0dcc64a/poster-image" group-title="",Zee Alwan (720p) [Not 24/7]
 https://weyyak-live.akamaized.net/weyyak_zee_alwan/index.m3u8
-#EXTINF:-1 ,AR ||  Bein Sports 1 HD
-http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1436.ts
-#EXTINF:-1 ,AR ||  Bein Sports 2 HD
-http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1437.ts
-#EXTINF:-1 ,AR ||  Bein Sports 3 HD
-http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1438.ts
-#EXTINF:-1 ,AR ||  Bein Sports 4 HD
-http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1439.ts
-#EXTINF:-1 ,AR ||  Bein Sports 5 HD
-http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1440.ts
-#EXTINF:-1 ,AR ||  Bein Sports 6 HD
-http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1441.ts
-#EXTINF:-1 ,AR ||  Bein Sports 7 HD
-http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1442.ts
-#EXTINF:-1 ,AR ||  Bein Sports 8 HD
-http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1443.ts
-#EXTINF:-1 ,AR ||  Bein Sports 9 HD
-http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1444.ts
-#EXTINF:-1 ,AR ||  Bein Sports 10 HD
-http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1445.ts
-#EXTINF:-1 ,AR || Bein Sports 11 HD
-http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1446.ts
-#EXTINF:-1 ,AR ||  Bein Sports 12 English HD
-http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1447.ts
-#EXTINF:-1 ,Bein Sports 13 HD
-http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1448.ts
-#EXTINF:-1 ,Bein Sports 14 HD (Match Days Only)
-http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1449.ts
-#EXTINF:-1 ,Bein Sports 15 HD (Match Days Only)
-http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1450.ts
-#EXTINF:-1 ,Bein Sports 11 SD
-http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1451.ts
+#EXTINF:-1,SPORTS 1 HQ
+http://62.4.18.94:25461/ahmed651/ahmed6541/80
+#EXTINF:-1,SPORTS 2 HQ
+http://62.4.18.94:25461/ahmed651/ahmed6541/81
+#EXTINF:-1,SPORTS 3 HQ
+http://62.4.18.94:25461/ahmed651/ahmed6541/82
+#EXTINF:-1,SPORTS 4 HQ
+http://62.4.18.94:25461/ahmed651/ahmed6541/83
+#EXTINF:-1,SPORTS 5 HQ
+http://62.4.18.94:25461/ahmed651/ahmed6541/84
+#EXTINF:-1,SPORTS 6 HQ
+http://62.4.18.94:25461/ahmed651/ahmed6541/85
+#EXTINF:-1,SPORTS 7 HQ
+http://62.4.18.94:25461/ahmed651/ahmed6541/86
+#EXTINF:-1,SPORTS 8 HQ
+http://62.4.18.94:25461/ahmed651/ahmed6541/87
+#EXTINF:-1,SPORTS 9 HQ
+http://62.4.18.94:25461/ahmed651/ahmed6541/88
+#EXTINF:-1,SPORTS 10 HQ
+http://62.4.18.94:25461/ahmed651/ahmed6541/89
+#EXTINF:-1,SPORTS SD1
+http://62.4.18.94:25461/ahmed651/ahmed6541/91
+#EXTINF:-1,SPORTS SD2
+http://62.4.18.94:25461/ahmed651/ahmed6541/92
+#EXTINF:-1,SPORTS SD3
+http://62.4.18.94:25461/ahmed651/ahmed6541/93
+#EXTINF:-1,SPORTS SD4
+http://62.4.18.94:25461/ahmed651/ahmed6541/94
+#EXTINF:-1,SPORTS SD5
+http://62.4.18.94:25461/ahmed651/ahmed6541/95
+#EXTINF:-1,SPORTS SD6
+http://62.4.18.94:25461/ahmed651/ahmed6541/96
+#EXTINF:-1,SPORTS SD7
+http://62.4.18.94:25461/ahmed651/ahmed6541/97
+#EXTINF:-1,SPORTS SD8
+http://62.4.18.94:25461/ahmed651/ahmed6541/98
+#EXTINF:-1,SPORTS SD9
+http://62.4.18.94:25461/ahmed651/ahmed6541/99
+#EXTINF:-1,SPORTS SD10
+http://62.4.18.94:25461/ahmed651/ahmed6541/100
