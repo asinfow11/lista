@@ -1,8 +1,0 @@
-#EXTINF:-1 tvg-id="2M Maroc" tvg-name="2M Monde MA" tvg-logo="https://m.2m.ma/static/images/2m-logo-thumbnail.png" group-title="Maroc",2M Maroc
-http://livecdnh2.tvanywhere.ae/hls/2m_maroc/04.m3u8
-#EXTINF:-1 tvg-id="Al Aoula MA" tvg-name="Al Aoula MA" tvg-logo="https://raw.githubusercontent.com/3nakib/IPTV/master/icons/AlAoula.ma.png" group-title="Maroc",Al Aoula MA
-http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/index.m3u8
-#EXTINF:-1 tvg-id="Al Maghribia MA" tvg-name="Al Maghribia MA" tvg-logo="https://raw.githubusercontent.com/3nakib/IPTV/master/icons/AlMaghribia.ma.png" group-title="Maroc",Al Maghribia MA
-http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_maghribia_snrt/hls_snrt/index.m3u8
-#EXTINF:-1 tvg-id="Medi 1 TV" tvg-name="Medi 1 TV" tvg-logo="http://www.medi1tv.com/ar/img/logo2.png" group-title="Maroc",Medi 1 TV MA
-http://streaming.medi1tv.com/live/Medi1tvmaghreb.sdp/chunklist.m3u8
