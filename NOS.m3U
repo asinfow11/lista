@@ -1,20 +1,3 @@
-Skip to content
- 
-Search…
-All gists
-Back to GitHub
-@TDEPLUSONLINE 
-@wottan32
-wottan32/IPTV-Final.m3u
-Created 17 months ago • Report abuse
-0
-0
- Code
- Revisions 2
-<script src="https://gist.github.com/wottan32/71aa9a3312f2cbb8e36b795e2f922290.js"></script>
-IPTV-Final.m3u
-IPTV-Final.m3u
-This file has been truncated, but you can view the full file.
 #EXTM3U
 #EXTINF:-1 tvg-ID="CONTRATA HOY TVPREMIUMHD.COM" tvg-name="CONTRATA HOY TVPREMIUMHD.COM" tvg-logo="https://i.imgur.com/30HzeQe.png" group-title="CANALES 24/7",CONTRATA HOY TVPREMIUMHD.COM
 http://tvpremiumhd.club/lista-gratuita/183003/tv/live.php?id=1124
