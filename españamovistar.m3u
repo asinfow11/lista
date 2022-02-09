@@ -1,0 +1,419 @@
+Skip to content
+ 
+Search…
+All gists
+Back to GitHub
+Sign in
+Sign up
+Instantly share code, notes, and snippets.
+
+@elvishuges
+elvishuges/Paginas IPTV
+Last active 22 days ago
+1
+0
+ Code
+ Revisions 3
+ Stars 1
+<script src="https://gist.github.com/elvishuges/3025da63db307c62e01626d610c71ec8.js"></script>
+Paginas IPTV
+<!-- CSS  -->
+ <link href="https://vjs.zencdn.net/7.2.3/video-js.css" rel="stylesheet">
+
+<!-- HTML -->
+<video id='hls-example'  class="video-js vjs-default-skin" width="400" height="300" controls>
+<source type="application/x-mpegURL" src="https://english.streaming.aljazeera.net/aljazeera/english2/index255.m3u8">
+</video>
+
+
+<!-- JS code -->
+<!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+<script src="https://vjs.zencdn.net/ie7/ie7-version/videojs-ie7.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.14.1/videojs-contrib-hls.js"></script>
+<script src="https://vjs.zencdn.net/7.2.3/video.js"></script>
+
+<script>
+var player = videojs('hls-example');
+player.play();
+</script>
+
+
+
+
+==================================================
+
+
+
+
+#EXTM3U
+#EXTINF:-1,ES: TCM
+http://nbr1.co:8000/giancarlo/giancarlo/30057
+#EXTINF:-1,ES: PARAMOUNT CHANNEL
+http://nbr1.co:8000/giancarlo/giancarlo/30065
+#EXTINF:-1,ES: SUNDANCE
+http://nbr1.co:8000/giancarlo/giancarlo/30061
+#EXTINF:-1,ES: MOVISTAR ESTRENOS HD
+http://nbr1.co:8000/giancarlo/giancarlo/30015
+#EXTINF:-1,ES: MOVISTAR ESTRENOS
+http://nbr1.co:8000/giancarlo/giancarlo/30098
+#EXTINF:-1,ES: MOVISTAR DRAMA
+http://nbr1.co:8000/giancarlo/giancarlo/30101
+#EXTINF:-1,ES: MOVISTAR  CINE
+http://nbr1.co:8000/giancarlo/giancarlo/30017
+#EXTINF:-1,ES: MOVISTAR COMEDIA
+http://nbr1.co:8000/giancarlo/giancarlo/30104
+#EXTINF:-1,ES: MOVISTAR CINEDOC&ROLL
+http://nbr1.co:8000/giancarlo/giancarlo/30105
+#EXTINF:-1,ES: MOVISTAR ACCION HD
+http://nbr1.co:8000/giancarlo/giancarlo/30019
+#EXTINF:-1,ES: MOVISTAR 0#
+http://nbr1.co:8000/giancarlo/giancarlo/30116
+#EXTINF:-1,ES: MOVISTAR ACCION
+http://nbr1.co:8000/giancarlo/giancarlo/30115
+#EXTINF:-1,ES: HOLLYWOOD
+http://nbr1.co:8000/giancarlo/giancarlo/30140
+#EXTINF:-1,ES: COSMO FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30168
+#EXTINF:-1,ES: COSMO HD
+http://nbr1.co:8000/giancarlo/giancarlo/30169
+#EXTINF:-1,ES: MOVISTAR 0# FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30107
+#EXTINF:-1,ES: MOVISTAR ACCION FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30106
+#EXTINF:-1,ES: MOVISTAR COMEDIA FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30103
+#EXTINF:-1,ES: MOVISTAR CINE Ñ
+http://nbr1.co:8000/giancarlo/giancarlo/30018
+#EXTINF:-1,ES: MOVISTAR DRAMA FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30100
+#EXTINF:-1,ES: MOVISTAR ESTRENOS FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30097
+#EXTINF:-1,ES: MOVISTAR CineDoc&Roll
+http://nbr1.co:8000/giancarlo/giancarlo/30086
+#EXTINF:-1,ES: TCM FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30056
+#EXTINF:-1,ES:  HOLLYWOOD FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30200
+#EXTINF:-1,ES: TNT
+http://nbr1.co:8000/giancarlo/giancarlo/30051
+#EXTINF:-1,ES: AXN HD
+http://nbr1.co:8000/giancarlo/giancarlo/30190
+#EXTINF:-1,ES: AXN  WHITE
+http://nbr1.co:8000/giancarlo/giancarlo/30189
+#EXTINF:-1,ES: COMEDY CENTRAL
+http://nbr1.co:8000/giancarlo/giancarlo/30195
+#EXTINF:-1,ES: AMC
+http://nbr1.co:8000/giancarlo/giancarlo/30194
+#EXTINF:-1,ES: SYFY
+http://nbr1.co:8000/giancarlo/giancarlo/30059
+#EXTINF:-1,ES: MOVISTAR SERIESMANIA
+http://nbr1.co:8000/giancarlo/giancarlo/30089
+#EXTINF:-1,ES: MOVISTAR SERIES
+http://nbr1.co:8000/giancarlo/giancarlo/30091
+#EXTINF:-1,ES: FOX
+http://nbr1.co:8000/giancarlo/giancarlo/30028
+#EXTINF:-1,ES: FOX LIFE
+http://nbr1.co:8000/giancarlo/giancarlo/30146
+#EXTINF:-1,ES: FOX
+http://nbr1.co:8000/giancarlo/giancarlo/30148
+#EXTINF:-1,ES: CLAN
+http://nbr1.co:8000/giancarlo/giancarlo/30175
+#EXTINF:-1,ES: CLAN HD
+http://nbr1.co:8000/giancarlo/giancarlo/30043
+#EXTINF:-1,ES: CALLE 13
+http://nbr1.co:8000/giancarlo/giancarlo/30182
+#EXTINF:-1,ES: AMC FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30193
+#EXTINF:-1,ES: AXN  WHITE FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30188
+#EXTINF:-1,ES: AXN FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30187
+#EXTINF:-1,ES: CALLE 13 FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30181
+#EXTINF:-1,ES: FOX FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30147
+#EXTINF:-1,ES: FOX LIFE FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30145
+#EXTINF:-1,ES: MOVISTAR SERIES FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30090
+#EXTINF:-1,ES: SYFY FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30058
+#EXTINF:-1,ES: TNT FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30050
+#EXTINF:-1,ES: Viajar
+http://nbr1.co:8000/giancarlo/giancarlo/30048
+#EXTINF:-1,ES: NAT GEO
+http://nbr1.co:8000/giancarlo/giancarlo/30075
+#EXTINF:-1,ES: NAT GEO  WILD
+http://nbr1.co:8000/giancarlo/giancarlo/30074
+#EXTINF:-1,ES: Iberalia
+http://nbr1.co:8000/giancarlo/giancarlo/30139
+#EXTINF:-1,ES: HISTORIA
+http://nbr1.co:8000/giancarlo/giancarlo/30143
+#EXTINF:-1,ES: EXTREMADURA  TV
+http://nbr1.co:8000/giancarlo/giancarlo/30151
+#EXTINF:-1,ES: DKISS
+http://nbr1.co:8000/giancarlo/giancarlo/30159
+#EXTINF:-1,ES: DMAX
+http://nbr1.co:8000/giancarlo/giancarlo/30158
+#EXTINF:-1,ES: DECASA HD
+http://nbr1.co:8000/giancarlo/giancarlo/30166
+#EXTINF:-1,ES: DISCOVERY  CHANNEL
+http://nbr1.co:8000/giancarlo/giancarlo/30165
+#EXTINF:-1,ES: CAZA  Y PESCA
+http://nbr1.co:8000/giancarlo/giancarlo/30178
+#EXTINF:-1,ES: CAZA Y PESCA FULLHD
+http://nbr1.co:8000/giancarlo/giancarlo/30177
+#EXTINF:-1,ES: NAT GEO FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30073
+#EXTINF:-1,ES: NAT GEO WILD FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30072
+#EXTINF:-1,ES: VIAJAR FULLHD
+http://nbr1.co:8000/giancarlo/giancarlo/30047
+#EXTINF:-1,ES: NEOX
+http://nbr1.co:8000/giancarlo/giancarlo/30071
+#EXTINF:-1,ES: FDF
+http://nbr1.co:8000/giancarlo/giancarlo/30149
+#EXTINF:-1,ES: DIVINITY
+http://nbr1.co:8000/giancarlo/giancarlo/30160
+#EXTINF:-1,ES: ENERGY
+http://nbr1.co:8000/giancarlo/giancarlo/30157
+#EXTINF:-1,ES: COCINA
+http://nbr1.co:8000/giancarlo/giancarlo/30173
+#EXTINF:-1,ES: BLAZE
+http://nbr1.co:8000/giancarlo/giancarlo/30183
+#EXTINF:-1,ES: BE MAD FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30184
+#EXTINF:-1,ES: BABY  TV
+http://nbr1.co:8000/giancarlo/giancarlo/30186
+#EXTINF:-1,ES:  BOING
+http://nbr1.co:8000/giancarlo/giancarlo/30201
+#EXTINF:-1,ES: NICKELODEON HD
+http://nbr1.co:8000/giancarlo/giancarlo/30005
+#EXTINF:-1,ES: PANDA
+http://nbr1.co:8000/giancarlo/giancarlo/30066
+#EXTINF:-1,ES: NICK JR
+http://nbr1.co:8000/giancarlo/giancarlo/30070
+#EXTINF:-1,ES: NICKELODEON
+http://nbr1.co:8000/giancarlo/giancarlo/30069
+#EXTINF:-1,ES: MOVISTAR  DISNEY
+http://nbr1.co:8000/giancarlo/giancarlo/30113
+#EXTINF:-1,ES: DISNEY  JUNIOR
+http://nbr1.co:8000/giancarlo/giancarlo/30164
+#EXTINF:-1,ES: DISNEY  XD
+http://nbr1.co:8000/giancarlo/giancarlo/30163
+#EXTINF:-1,ES: DISNEY CHANNEL
+http://nbr1.co:8000/giancarlo/giancarlo/30162
+#EXTINF:-1,ES: DISNEY CHANNEL FULLHD
+http://nbr1.co:8000/giancarlo/giancarlo/30161
+#EXTINF:-1,ES: NICKELODEON FULLHD
+http://nbr1.co:8000/giancarlo/giancarlo/30068
+#EXTINF:-1,ES: classica
+http://nbr1.co:8000/giancarlo/giancarlo/30063
+#EXTINF:-1,ES: MTV
+http://nbr1.co:8000/giancarlo/giancarlo/30085
+#EXTINF:-1,ES: MEZZO LIVE
+http://nbr1.co:8000/giancarlo/giancarlo/30117
+#EXTINF:-1,ES: HIT TV
+http://nbr1.co:8000/giancarlo/giancarlo/30141
+#EXTINF:-1,ES: MEZZO LIVE FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30045
+#EXTINF:-1,ES: LA 1
+http://nbr1.co:8000/giancarlo/giancarlo/30224
+#EXTINF:-1,ES: LA 2
+http://nbr1.co:8000/giancarlo/giancarlo/30222
+#EXTINF:-1,ES: ANTENA 3
+http://nbr1.co:8000/giancarlo/giancarlo/30220
+#EXTINF:-1,ES: LA CUATRO
+http://nbr1.co:8000/giancarlo/giancarlo/30218
+#EXTINF:-1,ES: TELECINCO
+http://nbr1.co:8000/giancarlo/giancarlo/30216
+#EXTINF:-1,ES: LA SEXTA
+http://nbr1.co:8000/giancarlo/giancarlo/30214
+#EXTINF:-1,ES: 24 HORAS
+http://nbr1.co:8000/giancarlo/giancarlo/30197
+#EXTINF:-1,ES:  NOVA
+http://nbr1.co:8000/giancarlo/giancarlo/30199
+#EXTINF:-1,ES: ARAGON TV
+http://nbr1.co:8000/giancarlo/giancarlo/30191
+#EXTINF:-1,ES: TV 13
+http://nbr1.co:8000/giancarlo/giancarlo/30049
+#EXTINF:-1,ES: ANDALUCIA TV
+http://nbr1.co:8000/giancarlo/giancarlo/30192
+#EXTINF:-1,ES: 13 TV
+http://nbr1.co:8000/giancarlo/giancarlo/30198
+#EXTINF:-1,ES: ODISEA
+http://nbr1.co:8000/giancarlo/giancarlo/30067
+#EXTINF:-1,ES: INTERECONOMIA
+http://nbr1.co:8000/giancarlo/giancarlo/30138
+#EXTINF:-1,ES: 7RM FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30196
+#EXTINF:-1,ES: ANTENA 3 FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30219
+#EXTINF:-1,ES: CANAL SUR FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30179
+#EXTINF:-1,ES: LA 1 FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30223
+#EXTINF:-1,ES: La 2 FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30221
+#EXTINF:-1,ES: LA CUATRO FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30217
+#EXTINF:-1,ES: LA SEXTA  FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30213
+#EXTINF:-1,ES: TELECINCO FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30215
+#EXTINF:-1,ES: CANAL SUR
+http://nbr1.co:8000/giancarlo/giancarlo/46234
+#EXTINF:-1,ES: LA 1
+http://nbr1.co:8000/giancarlo/giancarlo/68067
+#EXTINF:-1,ES: TELEDEPORTE
+http://nbr1.co:8000/giancarlo/giancarlo/30055
+#EXTINF:-1,ES: BARCA TV
+http://nbr1.co:8000/giancarlo/giancarlo/30185
+#EXTINF:-1,ES: REAL MADRID TV
+http://nbr1.co:8000/giancarlo/giancarlo/30064
+#EXTINF:-1,ES: MOVISTAR VAMOS HD
+http://nbr1.co:8000/giancarlo/giancarlo/30007
+#EXTINF:-1,ES: MOVISTAR TOROS HD
+http://nbr1.co:8000/giancarlo/giancarlo/30039
+#EXTINF:-1,ES: MOVISTAR F1 HD
+http://nbr1.co:8000/giancarlo/giancarlo/30013
+#EXTINF:-1,ES: MOVISTAR DEPORTE HD
+http://nbr1.co:8000/giancarlo/giancarlo/30016
+#EXTINF:-1,ES: MOVISTAR  VAMOS
+http://nbr1.co:8000/giancarlo/giancarlo/30108
+#EXTINF:-1,ES: MOVISTAR  TOROS TV
+http://nbr1.co:8000/giancarlo/giancarlo/30109
+#EXTINF:-1,ES: MOVISTAR  DEPORTE
+http://nbr1.co:8000/giancarlo/giancarlo/30114
+#EXTINF:-1,ES: MOVISTAR  F1
+http://nbr1.co:8000/giancarlo/giancarlo/30112
+#EXTINF:-1,ES: MOVISTAR  GOLF
+http://nbr1.co:8000/giancarlo/giancarlo/30111
+#EXTINF:-1,ES: GOL TV
+http://nbr1.co:8000/giancarlo/giancarlo/30144
+#EXTINF:-1,ES: Eurosport  2
+http://nbr1.co:8000/giancarlo/giancarlo/30154
+#EXTINF:-1,ES: EUROSPORT 1
+http://nbr1.co:8000/giancarlo/giancarlo/30153
+#EXTINF:-1,ES: DAZN FHD
+http://nbr1.co:8000/giancarlo/giancarlo/48680
+#EXTINF:-1,ES: DAZN HD
+http://nbr1.co:8000/giancarlo/giancarlo/48681
+#EXTINF:-1,ES: DAZN MOTO GP FHD
+http://nbr1.co:8000/giancarlo/giancarlo/86823
+#EXTINF:-1,ES: DAZN MOTO GP HD
+http://nbr1.co:8000/giancarlo/giancarlo/86822
+#EXTINF:-1,ES: M.LALIGA
+http://nbr1.co:8000/giancarlo/giancarlo/30212
+#EXTINF:-1,ES: MOVISTAR LALIGA HD
+http://nbr1.co:8000/giancarlo/giancarlo/30029
+#EXTINF:-1,ES: MULTIDEPORTE
+http://nbr1.co:8000/giancarlo/giancarlo/30084
+#EXTINF:-1,ES: M. DEPORTES1
+http://nbr1.co:8000/giancarlo/giancarlo/30037
+#EXTINF:-1,ES: M. DEPORTES2
+http://nbr1.co:8000/giancarlo/giancarlo/30036
+#EXTINF:-1,ES: M. DEPORTES3
+http://nbr1.co:8000/giancarlo/giancarlo/30035
+#EXTINF:-1,ES: M. DEPORTES4
+http://nbr1.co:8000/giancarlo/giancarlo/30034
+#EXTINF:-1,ES: M. DEPORTES5
+http://nbr1.co:8000/giancarlo/giancarlo/30033
+#EXTINF:-1,ES: M. DEPORTES6
+http://nbr1.co:8000/giancarlo/giancarlo/30032
+#EXTINF:-1,ES: M. DEPORTES7
+http://nbr1.co:8000/giancarlo/giancarlo/30031
+#EXTINF:-1,ES: M. DEPORTESHD
+http://nbr1.co:8000/giancarlo/giancarlo/30023
+#EXTINF:-1,ES: LALIGATV BAR 1
+http://nbr1.co:8000/giancarlo/giancarlo/30119
+#EXTINF:-1,ES: LIGA DE CAMPEONES4  Espa
+http://nbr1.co:8000/giancarlo/giancarlo/30120
+#EXTINF:-1,ES: LaLiga BAR FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30024
+#EXTINF:-1,ES: LIGA CAMPEONES 2 HD
+http://nbr1.co:8000/giancarlo/giancarlo/30026
+#EXTINF:-1,ES: LIGA CAMPEONES HD
+http://nbr1.co:8000/giancarlo/giancarlo/30025
+#EXTINF:-1,ES: LIGA DE CAMPEONES 1 Espa
+http://nbr1.co:8000/giancarlo/giancarlo/30128
+#EXTINF:-1,ES: LIGA DE CAMPEONES 1 FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30041
+#EXTINF:-1,ES: LIGA DE CAMPEONES 2  Espa
+http://nbr1.co:8000/giancarlo/giancarlo/30127
+#EXTINF:-1,ES: LIGA DE CAMPEONES 3  Espa
+http://nbr1.co:8000/giancarlo/giancarlo/30126
+#EXTINF:-1,ES: LIGA DE CAMPEONES 5  Espa
+http://nbr1.co:8000/giancarlo/giancarlo/30125
+#EXTINF:-1,ES: LIGA DE CAMPEONES 6  Espa
+http://nbr1.co:8000/giancarlo/giancarlo/30124
+#EXTINF:-1,ES: LIGA DE CAMPEONES 7  Espa
+http://nbr1.co:8000/giancarlo/giancarlo/30123
+#EXTINF:-1,ES: LIGA DE CAMPEONES 8 ESPA
+http://nbr1.co:8000/giancarlo/giancarlo/30122
+#EXTINF:-1,ES: LIGA CAMPEONES
+http://nbr1.co:8000/giancarlo/giancarlo/30130
+#EXTINF:-1,ES: LA LIGATV BAR
+http://nbr1.co:8000/giancarlo/giancarlo/30137
+#EXTINF:-1,ES: M.LALIGA FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30202
+#EXTINF:-1,ES: EUROSPORT 1 HD
+http://nbr1.co:8000/giancarlo/giancarlo/30152
+#EXTINF:-1,ES: LIGA CAMPEONES 2 FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30129
+#EXTINF:-1,ES: LIGA DE CAMPEONES FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30121
+#EXTINF:-1,ES: LIGATV  FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30040
+#EXTINF:-1,ES: MOVISTAR DEPORTE 1 FULLHD
+http://nbr1.co:8000/giancarlo/giancarlo/30102
+#EXTINF:-1,ES: MOVISTAR F1 FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30096
+#EXTINF:-1,ES: MOVISTAR GOLF FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30095
+#EXTINF:-1,ES: MOVISTAR VAMOS FHD
+http://nbr1.co:8000/giancarlo/giancarlo/30087
+#EXTINF:-1,ES: R. MADRID TV
+http://nbr1.co:8000/giancarlo/giancarlo/30053
+#EXTINF:-1,ES: MEGA
+http://nbr1.co:8000/giancarlo/giancarlo/68946
+#EXTINF:-1,|ES| VIAJAR HEVC
+http://nbr1.co:8000/giancarlo/giancarlo/35783
+#EXTINF:-1,|ES| TOROS HEVC
+http://nbr1.co:8000/giancarlo/giancarlo/35784
+#EXTINF:-1,|ES| NATIONAL GEOGRAPHIC HEVC
+http://nbr1.co:8000/giancarlo/giancarlo/35785
+#EXTINF:-1,|ES| NAT GEO WILD HEVC
+http://nbr1.co:8000/giancarlo/giancarlo/35786
+#EXTINF:-1,|ES| M.LIGA DE CAMPEONES HEVC
+http://nbr1.co:8000/giancarlo/giancarlo/35787
+#EXTINF:-1,|ES| M.DEPORTES HEVC
+http://nbr1.co:8000/giancarlo/giancarlo/35789
+#EXTINF:-1,|ES| LALIGA TV HEVC
+http://nbr1.co:8000/giancarlo/giancarlo/35790
+#EXTINF:-1,|ES| DISNEY CHANNEL HEVC
+http://nbr1.co:8000/giancarlo/giancarlo/35791
+#EXTINF:-1,|ES| TCM HEVC
+http://nbr1.co:8000/giancarlo/giancarlo/35792
+#EXTINF:-1,|ES| HOLLYWOOD HEVC
+http://nbr1.co:8000/giancarlo/giancarlo/35793
+#EXTINF:-1,|ES| M.ESTRENOS HEVC
+http://nbr1.co:8000/giancarlo/giancarlo/35794
+#EXTINF:-1,|ES| M.COMEDIA HEVC
+http://nbr1.co:8000/giancarlo/giancarlo/35797
+#EXTINF:-1,|ES| M.ACCION HEVC
+http://nbr1.co:8000/giancarlo/giancarlo/35798
+ to join this conversation on GitHub. Already have an account? Sign in to comment
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
